@@ -1,10 +1,11 @@
 body {
   background-color: #f7f7f7;
+  font-family: Verdana;
 }
 
-.photo{
-    border: 1px solid #505050;
-    border-radius: 50%;
+.photo {
+  border: 1px solid #505050;
+  border-radius: 50%;
 }
 
 #title,
@@ -13,11 +14,20 @@ body {
   color: #505050;
 }
 
+#title {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
 .post_title {
   font-size: 16px;
   font-style: italic;
   margin: 0;
   margin-bottom: 15px;
+}
+a {
+  text-decoration:underline;
+  color: #505050;
 }
 
 .post {
@@ -34,5 +44,17 @@ body {
 }
 
 .post_image {
+  display: block;
+  margin: 0 auto;
   margin-bottom: 15px;
+  
+}
+
+.contacts_list {
+  list-style-type: square;
+  padding-left: 15px;
+}
+
+.contacts_list li a {
+  text-decoration: none;
 }
