@@ -1,3 +1,41 @@
-body{
-    background-color: orange;
+:root {
+  /* variável */
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*  mantem elementos dentro caixa */
+}
+
+body {
+  background: var(--preta);
+  font-family: "Times New Roman", Times, serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row; /* default */
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .Logo {
+    margin-left: 5px;;
+  color: var(--vermelho);
+  font-family: "arial black";
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+
 }
