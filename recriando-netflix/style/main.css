@@ -85,3 +85,10 @@ header nav a:hover {
 .botao i {
   margin-right: 8px;
 }
+
+.container{
+  margin-left: 20px; /* jogou o conteudo para lado */
+}
+.filme-principal .container{
+  width: 70%; /* mantem a proporção do conteúdo do banner. */
+}
