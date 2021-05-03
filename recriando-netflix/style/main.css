@@ -12,7 +12,7 @@
 /* Elemtos base */
 body {
   background: var(--preta);
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Arial', Times, serif;
   color: white;
 }
 
@@ -26,7 +26,7 @@ header .container {
 header .Logo {
   margin-left: 5px;
   color: var(--vermelho);
-  font-family: "arial black";
+  font-family: 'Arial Black', Times;
   font-size: 40px;
 }
 
@@ -97,4 +97,8 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.carrosel-filmes{
+  margin-top: 10px;
 }
