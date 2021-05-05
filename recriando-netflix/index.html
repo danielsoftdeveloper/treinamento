@@ -11,14 +11,16 @@
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     <!-- ccs responsividade -->
     <link rel="stylesheet" href="style/responsive.css">
+    <!-- css video -->
+    <link rel="stylesheet" href="style/video.css">
 
-    <title>Neflix Origem</title>
+    <title>STARFLIX</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h2 class="Logo">Netflix</h2>
+            <h2 class="Logo">STARFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
@@ -30,18 +32,20 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">HOUSE OF CARDS</h3>
-                <P class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar
-                    Washington. Assista agora a nova temporada de House of Cards que está imperdível. Assista agora a
-                    nova temporada de House of Cards que está imperdível.
+                <h3 class="titulo">OS CROODS 2 Uma Nova Era</h3>
+                <P class="descricao">Croods 2: Uma Nova Era, em busca de um habitat mais seguro, os Croods descobrem um
+                    paraíso que atende todas as suas necessidades. Assista agora o trailer do filme que está imperdível.
+
                 </P>
 
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <!-- Trigger/Abre o Modal vídeo -->
+                    <button id="myBtn" role="button" class="botao">
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
-                    <button role="button" class="botao">
+                    <!-- Trigger/Abre o Modal informações -->
+                    <button id="myBtn2" role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
@@ -85,12 +89,104 @@
         </div>
 
     </div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <h4><img class="box-filme" src="/img/mini10.jpg" alt="" srcset=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-filme" src="/img/mini9.jpg" alt="" srcset=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-filme" src="/img/mini8.jpg" alt="" srcset=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-filme" src="/img/mini7.jpg" alt="" srcset=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-filme" src="/img/mini6.jpg" alt="" srcset=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-filme" src="/img/mini5.jpg" alt="" srcset=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-filme" src="/img/mini4.jpg" alt="" srcset=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-filme" src="/img/mini3.jpg" alt="" srcset=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-filme" src="/img/mini2.jpg" alt="" srcset=""></h4>
+            </div>
+            <div class="item">
+                <h4><img class="box-filme" src="/img/mini1.jpg" alt="" srcset=""></h4>
+            </div>
 
+        </div>
+
+    </div>
+
+
+    <!-- The Modal video -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Assistir Trailer - OS CROODS 2 Uma Nova Era</h2>
+            </div>
+            <div class="modal-body">
+                <video autoplay muted loop id="myVideo" width="100%">
+                    <source src="/video/OS-CROODS-2-Uma-Nova-Era-Trailer.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="modal-footer">
+                <button id="myBtn2" class="botao" onclick="myFunction()">Pause</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- The Modal mais informações -->
+    <div id="myModal2" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 class="titulo">Mais Informações</h2>
+            </div>
+            <div class="container">
+                <h3 class="titulo">OS CROODS 2 Uma Nova Era - Trailer</h3>
+                <P class="descricao">Em Croods 2: Uma Nova Era, em busca de um habitat mais seguro, os Croods descobrem
+                    um
+                    paraíso que atende todas as suas necessidades. Entretanto, outras pessoas já moram neste lugar: Os
+                    Bettermans, uma família que se considera melhor e mais evoluída. À medida que as tensões entre os
+                    novos
+                    vizinhos começam a aumentar, uma nova ameaça impulsiona os dois clãs em uma aventura épica que os
+                    força
+                    abraçar suas diferenças, extrair forças um do outro e construir um futuro juntos.
+                </P>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        Todos os direitos reservado para Daniel Andrade
+
+    </footer>
 
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/videojs/video.js"></script>
 
 </body>
 

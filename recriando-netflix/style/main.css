@@ -45,7 +45,7 @@ header nav a:hover {
   font-size: 16px;
   height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url("/img/capa-house.jpg");
+    url("/img/capa-croods.jpg");
   background-size: cover; /* usa o tamnaho da caixa */
 
   display: flex;
@@ -101,4 +101,15 @@ header nav a:hover {
 
 .carrosel-filmes{
   margin-top: 10px;
+}
+
+
+.footer {
+  background: var(--preta);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
