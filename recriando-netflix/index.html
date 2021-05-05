@@ -137,13 +137,18 @@
                 <h2>Assistir Trailer - OS CROODS 2 Uma Nova Era</h2>
             </div>
             <div class="modal-body">
-                <video autoplay muted loop id="myVideo" width="100%">
+                <video autoplay muted loop id="myVideo" width="100%" controls>
                     <source src="/video/OS-CROODS-2-Uma-Nova-Era-Trailer.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="modal-footer">
-                <button id="myBtn2" class="botao" onclick="myFunction()">Pause</button>
+                <button id="myBtn2" class="botao" onclick="myFunction()">Play / Pause</button>
+                <button class="botao" onclick="disableMute()" type="button"><i class="fas fa-volume-up"></i></button>
+                <button class="botao" onclick="enableMute()" type="button"><i class="fas fa-volume-mute"></i></button>
+              <!--   <button class="botao" onclick="checkMute()" type="button">Check muted status</button><br> -->
+              
             </div>
+            
         </div>
 
     </div>
