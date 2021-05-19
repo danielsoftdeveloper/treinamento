@@ -1,0 +1,26 @@
+/* dica de link para verificar cores: https://html-color-codes.info/ */
+:root {
+  /* variável */
+  --fundo: rgb(243, 243, 243);
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*  mantem elementos dentro caixa */
+}
+
+/* Elemtos base */
+body {
+  background: var(--fundo);
+  font-family: "Arial", Times, serif;
+  color: black;
+}
+
+/* configuração de imagens */
+.imagens img {
+  width: 300px;
+}
+.imagens-contatos img {
+  width: 100px;
+}
