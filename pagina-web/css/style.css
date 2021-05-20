@@ -18,9 +18,14 @@ body {
 }
 
 /* configuração de imagens */
-.imagens img {
+.img_padrao {
   width: 300px;
+  margin-bottom: 20px;
 }
-.imagens-contatos img {
+.img_logo {
   width: 100px;
+}
+
+footer{
+  margin-bottom: 30px;
 }
