@@ -8,6 +8,19 @@
     margin-top: 5px;
     width: 250px;
   }
+
+/* descrição informações mobile */
+#informacoes {
+  margin-top: 1rem;
+}
+#info-model-header {
+  font-size: 1.5rem;
+}
+
+#info-titulo {
+  font-size: 2rem;
+}
+
 }
 
 @media screen and (min-width: 1000px) {
