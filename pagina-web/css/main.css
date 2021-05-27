@@ -1,0 +1,31 @@
+/* Banner principal */
+header .container {
+  display: flex;
+  flex-direction: column; /* default */
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.banner-principal {
+  font-size: 16px;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("/pagina-web/img/parceiros.jpg");
+  background-size: cover; /* usa o tamnaho da caixa */
+  display: flex;
+  flex-direction: column; /* agrupa em colunas */
+  justify-content: center; /* centraliza informações */
+  align-items: flex-start; /* aparece no inicio da página */
+}
+
+.banner-principal .titulo {
+  margin-top: 15%;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 40px;
+}
+
+.banner-principal .descricao {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
