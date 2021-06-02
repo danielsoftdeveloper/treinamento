@@ -4,8 +4,8 @@ import '@testing-library/jest-dom/extend-expect'
 import Action from './Action'
 
 //mocks
-import { profile } from '../../mocks/profile.json';
-import profileSuccess from '../../mocks/profileSuccess.json';
+//import { profile } from '../../mocks/profile.json';
+//import profileSuccess from '../../mocks/profileSuccess.json';
 
 it('Should render Action', () => {
   const { container, debug, getByText } = render(<Action balls={profile.balls} />)
