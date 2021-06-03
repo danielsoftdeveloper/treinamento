@@ -1,12 +1,8 @@
-import React from 'react'
+import React from "react";
 
-function Primeiro () {
-    return (
-        <div>
-            <h1>Primeiro Componente</h1>
-            <h2>Exemplo de um componente</h2>
-        </div>
-    )
-}
-
-export default Primeiro
+export default () => (
+  <React.Fragment>
+    <h1>Primeiro Componente</h1>
+    <h2>Exemplo de um componente</h2>
+  </React.Fragment>
+);
