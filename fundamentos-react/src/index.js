@@ -8,10 +8,10 @@ import ComParametro from "./components/ComParametro";
 ReactDOM.render(
   <div>
     <Primeiro />
-    <ComParametro titulo='Este é o titulo' 
-    titulo='Esse é o titulo' />
-    <ComParametro titulo='Este é o subtitulo' 
-    paragrafo='Esse e o paragrafo' />
+    <ComParametro titulo='Este é o titulo'
+     subtitulo='Esse é o subtitulo' />
+     <ComParametro titulo='Epa'
+     subtitulo='Opa' />  
   </div>,
   document.getElementById("root")
 );
