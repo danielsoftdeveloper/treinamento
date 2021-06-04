@@ -2,23 +2,30 @@ import "./index.css";
 import React from "react";
 import ReactDOM from "react-dom";
 
-//import Primeiro from "./components/Primeiro";
 //import ComParametro from "./components/ComParametro";
-import ComFilhos from './components/ComFilhos'
+import ComFilhos from "./components/ComFilhos";
+import Card from "./components/layout/Card";
+import Primeiro from "./components/Primeiro";
 
 ReactDOM.render(
   <div>
+    <Card titulo='Primeiro Componente'>
+    <Primeiro />
+    </Card>
+    <Card titulo='Exercício x'>
+      Conteudo
+    </Card>
 
-  <ComFilhos>
+    {/* <ComFilhos>
     <ul>
       <li>Ana</li>
       <li>Bia</li>
       <li>Carlos</li>
       <li>Daniel</li>
     </ul>
-  </ComFilhos>
+  </ComFilhos> */}
 
-   {/*  <Primeiro />
+    {/*  <Primeiro />
     <ComParametro titulo='Este é o titulo'
      subtitulo='Esse é o subtitulo' />
      <ComParametro titulo='Epa'
