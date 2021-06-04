@@ -8,7 +8,7 @@ import Primeiro from "./components/Primeiro";
 
 export default (props) => (
   <div className='App'>
-    <Card titulo='Componente com Filhos '>
+    <Card titulo='03 - Componente com Filhos '>
       <ComFilhos>
         <ul>
           <li>Ana</li>
@@ -18,11 +18,11 @@ export default (props) => (
         </ul>
       </ComFilhos>
     </Card>
-    <Card titulo='Componente com Parametro'>
+    <Card titulo='#02 - Componente com Parâmetro'>
       <ComParametro titulo='Este é o titulo' subtitulo='Esse é o subtitulo' />
     </Card>
 
-    <Card titulo='Primeiro Componente'>
+    <Card titulo='#01 - Primeiro Componente'>
       <Primeiro />
     </Card>
   </div>
