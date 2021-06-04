@@ -1,14 +1,12 @@
 body {
-  font-family: 'Arial Narrow Bold', sans-serif;
+  font-family: "Arial Narrow Bold", sans-serif;
   font-weight: 300;
   font-size: 1.4rem;
   background-color: #1d3a4e;
-  /* color: #fff;
- */  text-align: center;
+  text-align: center;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
-  /* color: #000
- */ 
 }
