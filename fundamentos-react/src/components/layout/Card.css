@@ -4,19 +4,21 @@
   border: 3px solid #000;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #fff;
-  
+  background-color: #008000;
+
   display: flex;
   flex-direction: column;
-  min-width: 300px; /* tamanho mínino */  
+  min-width: 300px; /* tamanho mínino */
 }
 .Card .Conteudo {
   flex: 1;
   padding: 15px 0px;
   color: #000;
 }
+
 .Card .Footer {
-  background-color: #000;
+  background-color: black;
   color: #fff;
   padding: 5px 0px;
- }
+  border-radius: 10px;
+}
