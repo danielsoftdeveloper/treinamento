@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/imagens.css">
     <!--  Carregue uma biblioteca de ícones para mostrar um menu de hambúrguer (barras) em telas pequenas -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Página de Serviços</title>
@@ -53,18 +54,20 @@
                 <P>Oferecemos os melhores servios de desenvolvimento de sites
                     e aplicativos.
                 </P>
-                <div>
-                    <img src="./img/servicos-app.jpg" class="img_padrao" alt=" aplicativos">
-                </div>
-                <div>
-                    <img src="./img/servicos-site.jpg" class="img_padrao" alt="Website">
-                </div>
-                <div>
-                    <img src="./img/servicos-atendimento.jpg" class="img_padrao" alt="Serviço de atendimento">
+                <div class="row">
+                    <div class="column">
+                        <img src="./img/servicos-app.jpg" class="img_padrao" alt=" aplicativos">
+                    </div>
+                    <div class="column">
+                        <img src="./img/servicos-site.jpg" class="img_padrao" alt="Website">
+                    </div>
+                    <div class="column">
+                        <img src="./img/servicos-atendimento.jpg" class="img_padrao" alt="Serviço de atendimento">
+                    </div>
                 </div>
             </div>
         </div>
-        
+
     </section>
 
     </section>
@@ -76,35 +79,14 @@
                 <h2>CLIENTES</h2>
                 <P>Nossos clientes ficaram muitos satifeitos com nossos serviço.
                 </P>
-                <div>
-                    <img src="./img/clientes-vip.jpg" class="img_padrao" alt="">
-                </div>
-                <div>
-                    <img src="./img/clientes-master.jpg" class="img_padrao" alt="">
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section id="parceiros">
-
-        <div class="principal-servicos">
-            <div class="container">
-                <h2>PARCEIROS</h2>
-                <P>Nossos parceiros nos ajudam a entregar as mellhores soluções para nossos clientes.
-                </P>
-                <div>
-                    <div>
-                        <a href="https://digitalinnovation.one" target="_blank">
-                            <img src="./img/digital-innovation-one.jpg" class="img_logo" alt="">
-                        </a>
+                <div class="row">
+                    <div class="column">
+                        <img src="./img/clientes-vip.jpg" class="img_padrao" alt="">
                     </div>
-                    <div>
-                        <a href="https://cubo-virtual.com.br/" target="_blank">
-                            <img src="./img/cubo-virtual.jpg" class="img_logo" alt="">
-                        </a>
+                    <div class="column">
+                        <img src="./img/clientes-master.jpg" class="img_padrao" alt="">
                     </div>
+
                 </div>
             </div>
         </div>
@@ -119,40 +101,78 @@
                 <P>Nossos time trabalha com muita qualidade e empenho para desenvolver
                     o melhor produto para os nossos clientes.
                 </P>
-                <div>
-                    <img src="./img/time.jpg" class="img_padrao" alt="">
-                </div>
-                <div class="imagens">
-                    <img src="./img/time1.jpg" class="img_padrao" alt="">
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section id="contato">
-
-        <div class="principal-servicos">
-            <div class="container">
-                <h2>CONTATO</h2>
-                <P>Entre em contato com nossa equipe.
-                </P>
-                <div>
-                    <img src="./img/contato-email.png" class="img_logo" alt="">
-                    <p>
-                        <a href="maito:contato@empresa.com">contato@empresa.com</a>
-                    </p>
-                    <p>
-                        <a href="tel:31999998888">(31) 9 9999-8888</a>
-                    </p>
+                <div class="row">
+                    <div class="column">
+                        <img src="./img/time.jpg" class="img_padrao" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="./img/time1.jpg" class="img_padrao" alt="">
+                    </div>
                 </div>
             </div>
         </div>
 
     </section>
+
 
     <footer>
-        <div class="container">
+
+        <div class="row">
+            <div class="column">
+
+                <section id="parceiros">
+
+                    <div class="container">
+                        <h2>PARCEIROS</h2>
+                        <P>Nossos parceiros nos ajudam a entregar as mellhores soluções para nossos clientes.
+                        </P>
+                        <div class="row">
+                            <div class="column">
+                                <a href="https://digitalinnovation.one" target="_blank">
+                                    <img src="./img/digital-innovation-one.jpg" class="img_logo" alt="">
+                                </a>
+                            </div>
+                            <div class="column">
+                                <a href="https://cubo-virtual.com.br/" target="_blank">
+                                    <img src="./img/cubo-virtual.jpg" class="img_logo" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </section>
+            </div>
+            <div class="column">
+
+                <section id="contato">
+
+                    <div class="container">
+                        <h2>CONTATO</h2>
+                        <P>Entre em contato com nossa equipe.
+                        </P>
+                        <div class="row">
+                            <div class="column">
+                                <img src="./img/contato-email.png" class="img_logo" alt="">
+                            </div>
+                            <div class="column">
+                                <p>
+                                    <a href="maito:contato@empresa.com">contato@empresa.com</a>
+                                </p>
+                                <p>
+                                    <a href="tel:31999998888">(31) 9 9999-8888</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <div class="footer_fundo">
             <p>Desenvolvido por Daniel Andrade</p>
         </div>
     </footer>

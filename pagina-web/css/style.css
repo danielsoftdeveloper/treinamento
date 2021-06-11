@@ -9,6 +9,9 @@
   padding: 0;
   box-sizing: border-box; /*  mantem elementos dentro caixa */
 }
+html {
+  max-width: 100%; /* mantem a largura  maxima da tela em 100% */
+}
 
 /* Elemtos base */
 body {
@@ -61,7 +64,25 @@ body {
 }
 
 footer {
-  margin-bottom: 30px;
+  color: white;
+  background-color: #333;
+  display: block;
+  margin: 0 auto;
+}
+
+footer .column img {
+  max-width: 50px;
+  height: 50px;
+}
+footer a {
+  color:white;
+}
+
+.footer_fundo {
+  background-color: black;
+  text-align: center;
+  height: 25px;
+  padding: 5px;
 }
 
 /* Quando a tela tem menos de 600 pixels de largura, oculta todos os links, exceto o primeiro ("Home"). Mostrar o link que contém deve abrir e fechar o topnav (.icon) */
